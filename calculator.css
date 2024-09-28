@@ -1,0 +1,51 @@
+/* Styling the calculator */
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ef9999;
+    box-shadow: 0 4px 10px rgba(16, 15, 15, 0.2);
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: right;
+    padding-right: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #09ddfe;
+}
+
+.operator {
+    background-color: #b9b9b8;
+    color: white;
+    font-weight: bold;
+}
+
+.operator:hover {
+    background-color: #fa0a0a;
+}
